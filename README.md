@@ -1,1 +1,0 @@
-# Terraform-CoreOS-Ignition
