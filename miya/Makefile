@@ -1,1 +1,1 @@
-/Users/miya/devel/devops/terraform/providers/digitialocean/apps/Terraform-CoreOS-Ignition/Makefile
+../Makefile
