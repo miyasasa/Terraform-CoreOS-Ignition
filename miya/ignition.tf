@@ -52,7 +52,7 @@ data "ignition_file" "iptables" {
 }
 
 data "template_file" "iptables_file" {
-  template = "${file("${path.module}/resources/iptables.txt")}"
+  template = "${file("${path.module}/resources/iptables")}"
 
   vars {
     ci_ip       = "${var.ci_ip}"
