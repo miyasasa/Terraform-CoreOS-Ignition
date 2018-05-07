@@ -3,11 +3,11 @@
 ### Overview
 The aim of this sample project is that congiure new coreOS's version(1688.5.3 (stable)) using ignition with terraform on digitalocean provider.
 
-It consists of etcd, flanneld and iptables service configurations for CI.
+It consists of etcd, flanneld and iptables service configurations for **CI**.
 
 ### Requirements
 * Terraform must be intalled and configured
-* You should have digitialocean token
+* You should have Digitialocean's token
 
 ### How To Use
 
@@ -26,7 +26,7 @@ You should add main.tfvars file for your environment variables in miya directory
 "ssh_keys"=["your_ssh_fingerprint"]
 
 ```
-These the following Makefile commands are created your host on digitialocean:
+Basically, the following Makefile commands are enough for creating your host on Digitialocean.
 
 ```
 make get
@@ -38,5 +38,6 @@ In addition, you can manage and apply your plans via ***make plan-output*** and 
 ### Links
  * [Terraform](https://www.terraform.io/)
  * [CoreOS - Ignition](https://coreos.com/ignition/docs/latest/)
+ * [Digitialocean](https://www.digitalocean.com/)
 
 
